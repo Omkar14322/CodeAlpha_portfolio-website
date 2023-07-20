@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resp.css">
+    <script src="https://kit.fontawesome.com/81ed3a8ed1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="left"><span>Port</span>folio</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <!-- <a href="javascript:void(0);" class="icon" onclick="closemenu()"><i class="fa-sharp fa-solid fa-circle-xmark"></i></a> -->
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <!-- <a href="javascript:void(0);" class="icon" onclick="openmenu()"><i class="fa-solid fa-bars"></i></a> -->
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+
+
+            </nav>
+
+            <div class="headertext">
+                <div class="left-section">
+                    <!-- <p>Web Developer</p> -->
+                    <!-- Element to contain animated typing -->
+                    <span id="element"></span>
+                    <h1>Hi, I'm <span>Omkar</span><br>Kumar From India</h1>
+                </div>
+                <div class="right-section">
+                    <img src="img/back2..png" alt="Coder">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--- --------------About---------------- --->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol-1">
+                    <img src="img/img2.jpg" alt="my img">
+                </div>
+                <div class="aboutcol-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I have always been passionate about web development, As a passionate Developer I was elated to
+                        see an opening for a Junior Web Developer role. I have experience in HTML, CSS, and JavaScript.
+                        Combined with my recent internship in front-end web development, I am confident I have the
+                        skills to help any Company succeed.I am dedicated to building easy-to-use, user-friendly
+                        websites, and applications. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+
+                    <div class="tab-content active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>DSA</span><br>Data Structure and Algorithm</li>
+                            <li><span>ML</span><br>Machine Learning With Python</li>
+                            <li><span>Language</span><br>C ,C++, Python</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="Experience">
+                        <ul>
+                            <li><span>June 2023-july 2023</span><br>Internship at IBMSKill build</li>
+                            <li><span>1/7/23-31/7/2023 </span><br>Internship at Codding Alpha</li>
+                            <li><span>ML</span><br>Machine Learning With Python</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>2020-Pursuing</span><br>B-Tech(CSE)<br> Dr.APJ Abdul Kalam University</li>
+                            <li><span>2017-2020</span><br>Intermediate(CBSE)<br>Kendriya Vidyalaya</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---   --------------Services---------------- -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="Services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Solution-driven web developer adept at contributing to highly collaborative work environment and
+                        finding solutions. Proven experience developing consumer-focused websites using HTML, CSS, PHP
+                        and JavaScript. Good knowledge of the best practices for web design, user experience, and speed.
+                    </p>
+                    <a href="#about">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Work on look and feel of UX by design and development optimizing student experience. Responsible
+                        for building a new student portal as a UI/UX Web Developer using JavaScript, jQuery, CSS 3.0,
+                        and HTML5. Brand Management: name, logo, look, and feel of the web site to get the best revenue.
+                    </p>
+                    <a href="#about">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>App design is an ongoing process comprising user experience (UX) and user interface (UI)
+                        elements. Designers ideate, define solutions, create the app's flow and structure, and make
+                        stylistic choices from colors to fonts. Designers base choices on user research and feedback.
+                    </p>
+                    <a href="#about">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------Portfolio----------- -->
+
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work-1.webp" alt="work">
+                    <div class="layer">
+                        <h3>Web Application</h3>
+                        <p>The web connect you to the talented people around the world.</p>
+                        <a href="https://github.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/work-3.jpg" alt="work">
+                    <div class="layer">
+                        <h3>Dance Academy site</h3>
+                        <p>Learn dance from the experts in our academy.it also helps you to connect with new people
+                            around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="work">
+                    <img src="img/work-2.jpg" alt="work">
+                    <div class="layer">
+                        <h3>ieducate site</h3>
+                        <p>The web connect you to the talented people around the world and Ofcourse the registeration is
+                            absolutely free </p>
+                        <a href="https://github.com/Omkar14322/ieducate-responsive"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -----------------Contact---------------- -->
+
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="Contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>rohitomkar123@gmil.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9599324838</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="img/My CV.pdf.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="Contact-right">
+                    <form>
+                        <input type="text" name=" Name" placeholder="Your Name" required>
+                        <input type="email" name=" email" placeholder="Enter Your email" required>
+                        <textarea name="message" rows="6" placeholder="Enter your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copyright &copy; www.MyPortfolio<i class="fa-solid fa-heart"></i>.in- All rights reserved.</p>
+        </div>
+    </div>
+
+
+    <!-- Loaded library -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- start animation! -->
+    <script>
+       var typed = new Typed('#element', {
+           strings: ['Web Designer', 'Web Developer'],
+       typeSpeed: 50,
+        });
+    </script>
+
+
+    <script>
+
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-content");
+       function opentab(tabname) {
+             for (tablink of tablinks) {
+           tablink.classList.remove("active-link");
+             }
+       for (tabcontent of tabcontents) {
+           tabcontent.classList.remove("active-tab");
+             }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+         }
+
+       function openmenu() {
+   var sidemenu = document.getElementById("sidemenu");
+       sidemenu.style.right = "0";
+    
+ }
+
+       function closemenu() {
+   var sidemenu = document.getElementById("sidemenu");
+       sidemenu.style.right = "-200px";
+    
+  
+ }
+    </script>
+
+</body>
+
+</html>

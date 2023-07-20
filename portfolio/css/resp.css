@@ -1,0 +1,127 @@
+@media only screen and (max-width:980px) {
+     
+  
+    .left{
+        font-size: 26px;
+    }
+    .left span{
+        font-size: 30px;
+    }
+
+
+    nav .fa-solid{
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    nav ul{
+        background:#b54769 ;
+        position: fixed;
+        top:0;
+        right:-200px;
+        width: 200px;
+        height:100vh;
+        padding-top:50px;
+        z-index: 2;
+        transition: 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 35px;
+    }
+
+    nav ul .fa-sharp{
+        position: absolute;
+        top: 25px;
+        left:25px;
+        /* cursor: pointer; */
+
+    }
+    
+       .headertext{
+        display: flex;
+        flex-direction: column-reverse;    
+    }
+
+    
+.headertext div{
+    margin-top: 55px;
+   width: 100%;
+   text-align: center;
+
+}
+
+.headertext p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.headertext h1{
+    font-size: 40px;
+}
+
+.right-section img{
+    width: 100%;
+}
+
+
+.sub-title{
+    text-align: center;
+    /* width: 100%; */
+}
+
+.Contact-left{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+
+.Contact-right{
+    flex-basis: 100%;
+    text-align: center;
+}
+/* 
+.tab-titles{
+    display: block;
+} */
+
+.tab-links{
+    margin-top: 23px;
+}
+
+.tab-content{
+    /* border: 2px solid wheat; */
+    margin-top: 20px;
+    /* font-size: 20px; */
+    /* text-align: center; */
+}
+
+.tab-content ul li{
+    font-size: 20px;
+}
+
+.tab-content ul li span{
+    font-size: 23px;
+}
+
+.aboutcol-1, .aboutcol-2{
+    flex-basis: 100%;
+}
+
+.aboutcol-1{
+    margin-bottom: 30px;
+
+}
+
+.aboutcol-2{
+    font-size: 18px; ;
+}
+
+.tab-links{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+
+}
